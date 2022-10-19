@@ -20,15 +20,15 @@ app.post(helloPath, (req, res) => {
 })
 
 app.put(helloPath, (req, res) => {
-    console.log(req.body)
-    res.send("Selam, PUT isteği atıldı.")
+    console.log(req.body);
+    res.send("Selam, PUT isteği atıldı.");
 })
 
 app.delete(helloPath, (req, res) => {
-    console.log(req.body)
-    res.send("Selam, DELETE isteği atıldı.")
+    console.log(req.body);
+    res.send("Selam, DELETE isteği atıldı.");
 })
 
-app.listen(5000, ()  => {
+app.listen(3000, ()  => {
     console.log('Uygulama calistirildi');
-})
+});
